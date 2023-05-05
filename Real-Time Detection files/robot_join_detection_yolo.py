@@ -7,7 +7,7 @@ from ultralytics import YOLO
 """
 
 # Decalre model .pt file path
-TRAINED_MODEL_PATH = 'C:/Users/VVL/Desktop/Final_Year_Project_Practical_19074904/Final_Year_Project_Models/yolo/'
+TRAINED_MODEL_PATH = 'C:/Users/VVL/Desktop/LenkevicsValdisCreativePiece/Final_Year_Project_Models/yolo/'
 
 # Load a model
 model = YOLO(TRAINED_MODEL_PATH+"best.pt")  # load custom model trained on Colab

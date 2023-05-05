@@ -7,9 +7,10 @@ import cv2
 
     If testing this code, please change 'TRAINED_MODEL_PATH' to where project files have been saved
 """
+
 # Define paths
-CONFIG_PATH = "C:/Users/VVL/Desktop/Final_Year_Project_Practical_19074904/Final_Year_Project_Models/mmdetection/mmdetect_custom_model_config.py"
-MODEL_PATH = "C:/Users/VVL/Desktop/Final_Year_Project_Practical_19074904/Final_Year_Project_Models/mmdetection/epoch_3.pth"
+CONFIG_PATH = "C:/Users/VVL/Desktop/LenkevicsValdisCreativePiece/Final_Year_Project_Models/mmdetection/mmdetect_custom_model_config.py"
+MODEL_PATH = "C:/Users/VVL/Desktop/LenkevicsValdisCreativePiece/Final_Year_Project_Models/mmdetection/epoch_3.pth"
 
 # Set device
 #DEVICE = 'cuda:0'
