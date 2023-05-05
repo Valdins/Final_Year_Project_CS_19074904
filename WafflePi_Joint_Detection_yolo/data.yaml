@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Arm', 'Hand', 'Wrist', 'base']
+
+roboflow:
+  workspace: manchester-metropolitan-university-l9oo9
+  project: wafflepi-joint-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/manchester-metropolitan-university-l9oo9/wafflepi-joint-detection/dataset/6
